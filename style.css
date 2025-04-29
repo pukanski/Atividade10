@@ -1,0 +1,46 @@
+body{
+    background-color:beige;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width: 75%; 
+    height: 200px;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+#principal{
+    font-family: Arial;
+    font-size: 15px;
+}
+
+#texto{
+    margin: auto;
+    text-align: justify;
+    max-width: 950px;
+}
+
+#imagens{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-left: 30px;
+    gap: 40px;
+    height: auto;
+}
+
+#imagens img{
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+}
+
+footer{
+    margin-top: 25px;
+    text-align: center;
+}
